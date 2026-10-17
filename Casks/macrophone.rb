@@ -4,7 +4,7 @@ cask "macrophone" do
 
   url "https://sameer.us/macrophone/releases/Macrophone-#{version}.dmg"
   name "Macrophone"
-  desc "Steer your Mac from your iPhone, by voice"
+  desc "Dictate and steer coding agents from your phone"
   homepage "https://sameer.us/macrophone"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "macrophone" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Macrophone.app"
 
