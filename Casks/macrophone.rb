@@ -1,6 +1,6 @@
 cask "macrophone" do
-  version "1.1.2"
-  sha256 "4c8741f9c5ebff375499a2e92aaa95f37fd8100f52499ad680eea07da6f7df0a"
+  version "1.1.3"
+  sha256 "29fd791f4dc728b36c650abed358166d4179a72de755ff73578e5ad0b5b79e23"
 
   url "https://sameer.us/macrophone/releases/Macrophone-#{version}.dmg"
   name "Macrophone"
